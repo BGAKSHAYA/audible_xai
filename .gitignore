@@ -1,0 +1,6 @@
+data
+notebooks/results
+notebooks/.ipynb_checkpoints
+report_figures
+yamnet/.idea
+yamnet/__pycache__

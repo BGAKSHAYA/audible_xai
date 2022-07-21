@@ -1,0 +1,60 @@
+{
+  "path_configuration": "path_configuration.json",
+  "dataset": "audio_mnist_digits",
+  "dataset_type": "spectrogram",
+
+  "run": {
+    "preprocessing": false,
+    "saliency": true,
+    "region_extraction": true,
+    "evaluation": true,
+    "visualization": true
+  },
+  "settings": {
+    "miscellaneous": {
+      "quick_analysis_mode": {
+        "run" : true,
+        "max_per_class": 200
+      }
+    },
+    "preprocessing": {
+      "audio_mnist_digits": ["spectrogram","melspectrogram"]
+    },
+    "saliency": {
+      "methods": [
+        "gradient", "input_t_gradient", "INTEGRATED_GRADIENTS", "deconvnet",
+        "deep_taylor", "lrp.sequential_preset_a",
+        "GRAD_CAM", "OCCLUSION", "LIME"
+      ],
+      "save_saliency_heatmaps": false,
+      "reset": false
+    },
+    "region_extraction": {
+      "method": "RECTANGULAR_REGIONS",
+      "search_space": {
+        "threshold_percentile": [98, 95, 90, 80, 70],
+        "min_cluster_size": [15, 20, 30, 40, 50, 60, 70],
+        "min_samples": [5, 10, 15, 20, 25, 30],
+        "max_inter_class_penalties": [0]
+      },
+      "random_selection_comparison_runs": 5,
+      "run_region_optimization": false,
+      "save_audio": false,
+      "audio_extraction_strategy": "AUDIO_IDENTIFICATION",
+      "reload_regions_last_run": false,
+      "region_tuning_mode": true,
+      "reset": false
+    },
+    "evaluation": {
+      "method": "RECTANGULAR_REGIONS",
+      "reset": false
+    },
+    "visualization": {
+      "methods": [
+        "overview_saliencies",
+        "overview_saliency_regions",
+        "overview_mispredictions"
+      ]
+    }
+  }
+}

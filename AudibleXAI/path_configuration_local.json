@@ -1,0 +1,157 @@
+{
+  "audio_mnist_digits": {
+    "spectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/spectrogram"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/audio_mnist_digits/spectrogram/AudioMnistDigits.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/audio_mnist_digits/spectrogram/AudioMnistDigits.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/audio_mnist/data",
+        "destination": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/spectrogram",
+        "meta": "E:/Master Thesis/Code/data/datasets/audio_mnist/data/audioMNIST_meta.txt"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/spectrogram/saliency",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/spectrogram/correct_regions",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/spectrogram/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/spectrogram/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/spectrogram/evaluation"
+      }
+    },
+    "melspectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/melspectrogram"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/audio_mnist_digits/melspectrogram/AudioMnistDigits.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/audio_mnist_digits/melspectrogram/AudioMnistDigits.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/audio_mnist/data",
+        "destination": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/melspectrogram",
+        "meta": "E:/Master Thesis/Code/data/datasets/audio_mnist/data/audioMNIST_meta.txt"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/melspectrogram/saliency",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/melspectrogram/correct_regions",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/melspectrogram/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/melspectrogram/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/audio_mnist_digits/melspectrogram/evaluation"
+      }
+    }
+  },
+  "audio_mnist_gender": {
+    "spectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/spectrogram"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/audio_mnist_gender/spectrogram/AudioMnistGender.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/audio_mnist_gender/spectrogram/AudioMnistGender.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/audio_mnist/data",
+        "destination": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/spectrogram",
+        "meta": "E:/Master Thesis/Code/data/datasets/audio_mnist/data/audioMNIST_meta.txt"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/spectrogram/saliency",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/spectrogram/correct_regions",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/spectrogram/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/spectrogram/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/spectrogram/evaluation"
+      }
+    },
+    "melspectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/melspectrogram"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/audio_mnist_gender/melspectrogram/AudioMnistGender.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/audio_mnist_gender/melspectrogram/AudioMnistGender.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/audio_mnist/data",
+        "destination": "E:/Master Thesis/Code/data/datasets/audio_mnist/preprocessed_data/melspectrogram",
+        "meta": "E:/Master Thesis/Code/data/datasets/audio_mnist/data/audioMNIST_meta.txt"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/melspectrogram/saliency",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/melspectrogram/correct_regions",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/melspectrogram/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/melspectrogram/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/audio_mnist_gender/melspectrogram/evaluation"
+      }
+    }
+  },
+  "gtzan": {
+    "spectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/gtzan/preprocessed_splitted_data/spectrogram"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/gtzan/spectrogram/GtzanAdam_splitted_final2.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/gtzan/spectrogram/GtzanAdam_splitted_final2.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/gtzan/splitted_data",
+        "destination": "E:/Master Thesis/Code/data/datasets/gtzan/preprocessed_splitted_data/spectrogram"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/gtzan/spectrogram/saliency",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/gtzan/spectrogram/correct_regions",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/gtzan/spectrogram/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/gtzan/spectrogram/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/gtzan/spectrogram/evaluation"
+      }
+    },
+    "melspectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/gtzan/preprocessed_splitted_data/melspectrogram"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/gtzan/melspectrogram/GtzanAdam1.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/gtzan/melspectrogram/GtzanAdam1.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/gtzan/splitted_data",
+        "destination": "E:/Master Thesis/Code/data/datasets/gtzan/preprocessed_splitted_data/melspectrogram"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/gtzan/melspectrogram/saliency",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/gtzan/melspectrogram/correct_regions",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/gtzan/melspectrogram/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/gtzan/melspectrogram/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/gtzan/melspectrogram/evaluation"
+      }
+    }
+  },
+  "audioset": {
+    "melspectrogram": {
+      "dataset": {
+        "path": "E:/Master Thesis/Code/data/datasets/audioset/preprocessed_data",
+        "classnames_path": "E:/Master Thesis/Code/data/datasets/audioset/classname_mapper.csv"
+      },
+      "model": {
+        "model_weights_path": "E:/Master Thesis/Code/data/models/audioset/yamnet.h5",
+        "model_architecture_path": "E:/Master Thesis/Code/data/models/audioset/yamnet.json"
+      },
+      "preprocessing": {
+        "source": "E:/Master Thesis/Code/data/datasets/audioset/data",
+        "destination": "E:/Master Thesis/Code/data/datasets/audioset/preprocessed_data"
+      },
+      "results": {
+        "saliency_path": "E:/Master Thesis/Code/data/results/audioset/saliency_original",
+        "correct_regions_path": "E:/Master Thesis/Code/data/results/audioset/correct_regions_original",
+        "incorrect_regions_path": "E:/Master Thesis/Code/data/results/audioset/incorrect_regions",
+        "visualizations_path": "E:/Master Thesis/Code/data/results/audioset/visualizations",
+        "evaluation_path": "E:/Master Thesis/Code/data/results/audioset/evaluation"
+      }
+    }
+  }
+}
+
+
