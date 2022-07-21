@@ -1,6 +1,6 @@
 # Sonifying Explanations for Deep Neural Network Predictions on Speech and Music Data
 
-This repository contains code in the folder [AudibleXAI](AudibleXAI/) for the master thesis topic *Sonifying Explanations for Deep Neural Network Predictions on Speech and Music Data*. The results from qualitative evaluation is available in the [AudibleXAI.md](AudibleXAI.md) file. 
+This repository contains code in the folder [AudibleXAI](AudibleXAI/) for the master thesis topic *Sonifying Explanations for Deep Neural Network Predictions on Speech and Music Data*. 
 
 
 ### AudibleXAI directory structure
